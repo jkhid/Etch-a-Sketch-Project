@@ -14,5 +14,13 @@ function createGrid(x) {
     }
 }
 createGrid(16);
+
+const cells = document.querySelectorAll(".cells");
+
+cells.forEach(cell => {
+    cell.addEventListener("mouseover", () => {
+        cell.classList.add("hovered");
+    })
+})
 // Create a hover effect that changes the grids color 
 // Add a button that will ask the user the amount of squares they want 

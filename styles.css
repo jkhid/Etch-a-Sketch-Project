@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #edc8c4;
@@ -13,10 +14,22 @@ body {
     background-color: #fff;
 }
 
-.cells {
-    background-color: #fff;
+.button-container {
+    margin-bottom: 16px;
 }
 
-.cells:hover {
+.gridNum {
+    margin-right: 16px;
+}
+
+/* .cells {
+    background-color: #fff;
+} */
+
+/* .cells:hover {
+    background-color: black;
+} */
+
+.cells.hovered {
     background-color: black;
 }

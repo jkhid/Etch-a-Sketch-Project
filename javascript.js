@@ -35,11 +35,9 @@ const clearBtn = document.querySelector(".clear");
 
 clearBtn.addEventListener("click", () => {
     const cells = document.querySelectorAll(".cells");
-    clearBtn.addEventListener("click", () => {
     cells.forEach(cell => {
         cell.classList.remove("hovered");
     })
-})
 })
 
 // Functionality for Change Grid button 
